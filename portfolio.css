@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    
+
+}
+body{
+    background-color: bisque;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav ul li a:hover{
+    color:red;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 25%;
+
+}
+.detel h1{
+    font-size: 80px;
+    color: black;
+    margin-bottom: 5px;
+    
+}
+p{
+    font-size: 40px;
+}
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.image{
+   
+   
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 300px;
+
+}
+h2{
+    margin-top: 5%;
+    margin-left: 45%;
+    font-size: 50px;
+
+}
+h3{
+    margin-top: 5%;
+    margin-left: 400px;
+    font-size: 30px;
+    font-style: italic;
+
+}
+.education{
+    margin-top: 10%;
+    margin-left: 45%;
+    font-size: 50px;
+}
+h5{
+    margin-top: 5%;
+    margin-left: 400px;
+    font-size: 30px;
+
+}
+h6{
+    margin-left: 400px;
+    font-size: 25px;
+}
+.skill{
+    margin-top: 10%;
+    margin-left: 47%;
+    font-size: 50px;
+}
+.lang{
+    margin-top: 5%;
+    margin-left: 400px;
+    font-size: 30px;
+}
+.achiv{
+    margin-top: 10%;
+    margin-left: 42%;
+    font-size: 50px;
+}
+.cert{
+    margin-top: 5%;
+    margin-left: 400px;
+    font-size: 30px;
+}
+.footer{
+    background-color: black;
+}
+.social{
+    color: white;
+    margin-top: 5%;
+    margin-left: 30%;
+    font-size: 50px;
+}
+.social-links{
+    margin-left: 32%;
+    margin-top: 2%;
+    color: azure;
+    
+}
+.copy{
+    color: white;
+    margin-left: 28%;
+    margin-top: 2%;
+    font-size: 30px;
+}
+.fab{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    /* font-size: 60px; */
+}
+.fab:hover
+{
+    color: bisque;
+}
